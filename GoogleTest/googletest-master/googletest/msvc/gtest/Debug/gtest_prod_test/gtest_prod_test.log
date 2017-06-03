@@ -1,7 +1,0 @@
-﻿  production.cc
-  gtest_prod_test.cc
-g:\concept_test\googletest\googletest-master\googletest\include\gtest\internal\gtest-internal.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
-  Generating Code...
-gtest_prod_test.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-  gtest_prod_test.vcxproj -> G:\concept_test\GoogleTest\googletest-master\googletest\msvc\gtest/Debug\gtest_prod_test.exe
-  gtest_prod_test.vcxproj -> gtest/Debug\gtest_prod_test.pdb (Full PDB)
