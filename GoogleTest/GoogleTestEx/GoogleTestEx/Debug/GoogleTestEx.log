@@ -1,0 +1,4 @@
+﻿  GoogleTestEx.cpp
+g:\concept_test\googletest\googletest-master\googletest\include\gtest\internal\gtest-internal.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  GoogleTestEx.vcxproj -> G:\concept_test\GoogleTest\GoogleTestEx\Debug\GoogleTestEx.exe
+  GoogleTestEx.vcxproj -> G:\concept_test\GoogleTest\GoogleTestEx\Debug\GoogleTestEx.pdb (Full PDB)

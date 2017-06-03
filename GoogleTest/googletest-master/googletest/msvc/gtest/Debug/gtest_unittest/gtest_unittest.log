@@ -1,0 +1,5 @@
+﻿  gtest_unittest.cc
+G:\concept_test\GoogleTest\googletest-master\googletest\include\gtest/internal/gtest-internal.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+gtestd.lib(gtest-all.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  gtest_unittest.vcxproj -> G:\concept_test\GoogleTest\googletest-master\googletest\msvc\gtest/Debug\gtest_unittest.exe
+  gtest_unittest.vcxproj -> gtest/Debug\gtest_unittest.pdb (Full PDB)
