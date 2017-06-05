@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
-#include <gtest/gtest.h>
+#include "gtest/gtest.h"
 
 int Foo(int a, int b)
 {
