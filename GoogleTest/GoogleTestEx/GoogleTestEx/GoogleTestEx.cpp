@@ -63,7 +63,6 @@ int main(int argc, _TCHAR* argv[])
 {
 	testing::InitGoogleTest(&argc, argv);
 	auto a = RUN_ALL_TESTS();
-	
 	return a;
 }
 
