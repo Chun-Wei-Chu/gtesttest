@@ -17,43 +17,43 @@ int Foo(int a, int b)
 	return Foo(b, c);
 }
 
-TEST(FooTest, HandleNoneZeroInput)
+TEST(FooTest1, HandleNoneZeroInput)
 {
 	EXPECT_EQ(2, Foo(4, 10));
 	EXPECT_EQ(6, Foo(30, 18));
 }
 
-TEST(FooTest, HandleNoneZeroInput)
+TEST(FooTest2, HandleNoneZeroInput)
 {
 	EXPECT_EQ(2, Foo(4, 10));
 	EXPECT_EQ(6, Foo(30, 18));
 }
 
-TEST(FooTest, HandleNoneZeroInput)
+TEST(FooTest3, HandleNoneZeroInput)
 {
 	EXPECT_EQ(2, Foo(4, 10));
 	EXPECT_EQ(99, Foo(30, 18));
 }
 
-TEST(FooTest, HandleNoneZeroInput)
+TEST(FooTest4, HandleNoneZeroInput)
 {
 	EXPECT_EQ(2, Foo(4, 10));
 	EXPECT_EQ(5, Foo(30, 18));
 }
 
-TEST(FooTest, HandleNoneZeroInput)
+TEST(FooTest5, HandleNoneZeroInput)
 {
 	EXPECT_EQ(2, Foo(4, 10));
 	EXPECT_EQ(3, Foo(30, 18));
 }
 
-TEST(FooTest, HandleNoneZeroInput)
+TEST(FooTest6, HandleNoneZeroInput)
 {
 	EXPECT_EQ(7, Foo(4, 10));
 	EXPECT_EQ(6, Foo(30, 18));
 }
 
-TEST(FooTest, HandleNoneZeroInput)
+TEST(FooTest7, HandleNoneZeroInput)
 {
 	EXPECT_EQ(2, Foo(4, 10));
 	EXPECT_EQ(6, Foo(30, 18));
