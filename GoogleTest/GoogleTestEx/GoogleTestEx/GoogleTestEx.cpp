@@ -23,6 +23,42 @@ TEST(FooTest, HandleNoneZeroInput)
 	EXPECT_EQ(6, Foo(30, 18));
 }
 
+TEST(FooTest, HandleNoneZeroInput)
+{
+	EXPECT_EQ(2, Foo(4, 10));
+	EXPECT_EQ(6, Foo(30, 18));
+}
+
+TEST(FooTest, HandleNoneZeroInput)
+{
+	EXPECT_EQ(2, Foo(4, 10));
+	EXPECT_EQ(99, Foo(30, 18));
+}
+
+TEST(FooTest, HandleNoneZeroInput)
+{
+	EXPECT_EQ(2, Foo(4, 10));
+	EXPECT_EQ(5, Foo(30, 18));
+}
+
+TEST(FooTest, HandleNoneZeroInput)
+{
+	EXPECT_EQ(2, Foo(4, 10));
+	EXPECT_EQ(3, Foo(30, 18));
+}
+
+TEST(FooTest, HandleNoneZeroInput)
+{
+	EXPECT_EQ(7, Foo(4, 10));
+	EXPECT_EQ(6, Foo(30, 18));
+}
+
+TEST(FooTest, HandleNoneZeroInput)
+{
+	EXPECT_EQ(2, Foo(4, 10));
+	EXPECT_EQ(6, Foo(30, 18));
+}
+
 int main(int argc, _TCHAR* argv[])
 {
 	testing::InitGoogleTest(&argc, argv);
