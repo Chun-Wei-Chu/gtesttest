@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include <iostream>
 #include "gtest/gtest.h"
+#include <string>
 
 int Foo(int a, int b)
 {
@@ -61,6 +62,7 @@ TEST(FooTest7, HandleNoneZeroInput)
 
 int main(int argc, _TCHAR* argv[])
 {
+	testing::GTEST_FLAG(output) = "xml:GTEST.xml";
 	testing::InitGoogleTest(&argc, argv);
 	auto a = RUN_ALL_TESTS();
 	return a;
